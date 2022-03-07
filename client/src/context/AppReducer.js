@@ -1,4 +1,4 @@
-// Here we specify the app state changes in response to certain actions to our store (to our context). CHange the state and sent it down to a component (creating a new state-with the spread operator- and send it down)
+// Here we specify the app state changes in response to certain actions to our store (to our context). Change the state and sent it down to a component (creating a new state -with the spread operator- and send it down)
 
 export default (state, action) => {
   switch (action.type) {
